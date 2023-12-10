@@ -1,0 +1,99 @@
+<html lang ="en">
+<head>
+<title>Doctor</title>
+<meta charset="uf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+integrity="sha384-AYmEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnYs9eStHfGJv0vKxfELGroGkvsg+p" crossorigin="anonymous"/>-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-7 border">
+            <div class="logo border">
+             <a href="index.html">
+             <img src="bird.jpg" alt="Logo" width="150" height="150">
+             </a>
+           </div>
+
+           <div class="menu">
+                <ul>
+                <li>
+                <a href="javascript:void(0);">Home</a>
+                </li>
+                <li>
+                <a href="javascript:void(0);">About</a>
+                </li>
+                <li>
+                <a href="javascript:void(0);">Pages</a>
+                </li>
+                <li>
+                <a href="javascript:void(0);">Element</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+   <div class="col-md-2">
+      <div class="header-social text -center">
+            <ul>
+            <li>
+                 <a href="javascript:void(0);">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="javascript:void(0);">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </li>
+        </div>
+    </div>
+
+   <div class="col-md-3">
+       <a href="javascript:void(0);" class ="btn-green mt-20px">
+       <i class="fas fa-calender-week"></i> Make a Payment"</a>
+  </div>
+</div>
+</div>
+</header>
+
+
+ <section class="banner" style="background-image: url(./banner.jpg)">
+      <div class="conatiner">
+        <img src="banner.jpg" alt="banner-Logo">
+         <h1>Our Doctors at your Service</h1>      
+      </div>
+      <div class="service">
+        <a href="javascript:void(0);">
+            <div class="service-content">
+                 Our Service Providers
+            </div>
+            <div class="service-btn">
+                   <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="service-icon">
+                   <i class="fas fa-heartbeat"></i>
+            </div>
+        </a>
+      </div>
+ </section>
+ 
+
+
+  <script>
+     var header = document.getElementsByTagName("header");
+     window.onscroll = function(){scrollfunction()};
+
+     function scrollfunction();
+        if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+            header[0].setAttribute("class", "header-active");
+        }
+        else{
+            header[0].removeAttribute("class")
+        }
+ </script>
+<body>

@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.mt-20px{
+     margin-top: 20px;
+}
+.border{
+     border-right: 1px solid rgb(255 255 255 /0.4);
+}
+.btn-green{
+    display: inline-block;
+    text-transform: capatalize;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 2px;
+    position: relative;
+    border: 1px solid #01ca8b;
+    boxshadow: 0 0 0 4em #01ca8b;
+    transition: all 3.5ms ease;
+
+}
+.btn-green i{ 
+    margin-right:6px;
+}
+.btn-green:hover{
+    box-shadow: 0 0 0 0 #01ca8b inset;
+}
